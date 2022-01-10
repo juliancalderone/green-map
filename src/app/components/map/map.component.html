@@ -1,0 +1,11 @@
+<agm-map [latitude]='lat' [longitude]='long' [zoom]='13' [styles]="styles">
+  <agm-marker *ngFor="let orchard of orchards" [latitude]="orchard.lat" [longitude]="orchard.lng"
+    [iconUrl]="'assets/images/pinsticker.svg'">
+    <agm-snazzy-info-window [closeWhenOthersOpen]="true">
+      <ng-template>
+        <strong>{{orchard.name}}</strong> <br>
+        {{orchard.adress}}
+      </ng-template>
+    </agm-snazzy-info-window>
+  </agm-marker>
+</agm-map>

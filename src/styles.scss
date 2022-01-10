@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "BwGradual";
+  src: url(./assets/fonts/BwGradual-Medium.otf);
+}
+
+@font-face {
+  font-family: "BwGradual-light";
+  src: url(./assets/fonts/BwGradual-Light.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "BwGradual", sans-serif;
+}
+
+.si-content-wrapper {
+  padding: 18px !important;
+}

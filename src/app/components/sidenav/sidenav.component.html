@@ -1,0 +1,29 @@
+<section class="info">
+  <h5>
+    En este mapa, encontrarás información de las huertas orgánicas de nuestra ciudad📍
+  </h5>
+  <div class="card-wrapper">
+    <div class="card" *ngFor="let orchard of orchards">
+      <div class="img-wrapper"
+        [ngStyle]="{'background-image': 'url(' + orchard.img + ')', 'background-size': 'cover', 'background-position':'center'}">
+      </div>
+      <div class="card-info">
+        <h5>
+          {{orchard.name}}
+        </h5>
+        <p>
+          {{orchard.adress}}
+        </p>
+        <a class="more-info" href="{{orchard.info}}" target="_blank" rel="noopener noreferrer">
+          Más info
+        </a>
+      </div>
+    </div>
+    <div class="copyright">
+      <small>
+        {{copyright}}
+      </small>
+    </div>
+
+  </div>
+</section>

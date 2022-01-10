@@ -1,0 +1,38 @@
+.navbar {
+  background: #25825E;
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+  }
+
+  &__logo {
+    img {
+      height: 60px;
+    }
+  }
+
+  &__cta {
+      background: #353535;
+
+      padding: 1rem 3rem;
+      border-radius: 8px;
+      border: 0;
+      a {
+      color: white;
+      text-decoration: none;
+      }
+  }
+  &__title {
+    color: white;
+    display: flex;
+    align-items: center;
+    img {
+      height: 40px;
+      margin-right: 20px;
+    }
+  }
+}
