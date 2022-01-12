@@ -23,7 +23,7 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBMr8rzkBENuNX3A6UcQIDTsJhDzF-TIb8',
+      apiKey: "AIzaSyBy8uqEtWyDfdLOHR7S11I8Mjf5m7mIheU",
     }),
     AgmSnazzyInfoWindowModule,
   ],
